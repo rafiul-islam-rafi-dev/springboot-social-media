@@ -3,7 +3,11 @@ package com.rafi.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-//AIP banano
+//note: controller and API define kora chara project run hobe na
+/*
+ *first API (@RestController) define kora Controller class er opore. 
+ *@RestController API spring-boot k bole dey, ai(HomeController) class a Controller releted Rest endpoint/API define korbo.
+*/
 @RestController
 public class HomeController {
 
