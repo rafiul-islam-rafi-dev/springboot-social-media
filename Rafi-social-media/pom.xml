@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.5</version>
+		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.rafi</groupId>
-	<artifactId>Rafi-social-media</artifactId>
+	<groupId>com.pollob</groupId>
+	<artifactId>Pollob-social-media</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Rafi-social-media</name>
-	<description>Social Media Project</description>
+	<name>Pollob-social-media</name>
+	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -32,26 +32,39 @@
 	
 	<!-- Akhane sob dependency thake -->
 	<dependencies>
-	         <!-- Spring web  -->
+	          <!-- Spring web  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-             <!-- Spring Boot DevTools -->
+               <!-- Spring Boot DevTools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		
-		     <!--  -->
+		      <!--  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		      <!--MySQL Connector  -->
+		<dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
+              <!-- Data JPA -->
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>3.5.4</version>
+        </dependency>
 	</dependencies>
 
 	<build>
